@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Wdr_Tests" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=srwin-drsql12;Initial Catalog=Wdr_Tests;Integrated Security=True" SettingsObjectName="wdr_test_datalayer.My.MySettings" SettingsPropertyName="Wdr_TestsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Couleurs" Member="Couleurs">
+    <Type Name="Couleurs">
+      <Column Name="co_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="co_lib" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Couleurs_Voitures" Member="Voitures" ThisKey="co_id" OtherKey="vo_co_id" Type="Voitures" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Voitures" Member="Voitures">
+    <Type Name="Voitures">
+      <Column Name="vo_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="vo_km" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="vo_immat" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="vo_co_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="vo_mo_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="Couleurs_Voitures" Member="Couleurs" ThisKey="vo_co_id" OtherKey="co_id" Type="Couleurs" IsForeignKey="true" />
+      <Association Name="Modeles_Voitures" Member="Modeles" ThisKey="vo_mo_id" OtherKey="mo_id" Type="Modeles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Marques" Member="Marques">
+    <Type Name="Marques">
+      <Column Name="ma_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ma_lib" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Marques_Modeles" Member="Modeles" ThisKey="ma_id" OtherKey="mo_ma_id" Type="Modeles" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Modeles" Member="Modeles">
+    <Type Name="Modeles">
+      <Column Name="mo_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mo_lib" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="mo_cheveaux" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mo_portes" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="mo_ma_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="Modeles_Voitures" Member="Voitures" ThisKey="mo_id" OtherKey="vo_mo_id" Type="Voitures" />
+      <Association Name="Marques_Modeles" Member="Marques" ThisKey="mo_ma_id" OtherKey="ma_id" Type="Marques" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
