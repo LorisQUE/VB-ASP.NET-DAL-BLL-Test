@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wdr_test_datalayer", "wdr_test_datalayer\wdr_test_datalayer.vbproj", "{2285BDE2-884C-422A-8148-91886E2B10F9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wdr_test_tests", "wdr_test_tests\wdr_test_tests.vbproj", "{FD904D8D-C4B0-4922-BF61-101F1D337D3C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Wdr_Tests_IHM", "Wdr_Tests_IHM\Wdr_Tests_IHM.vbproj", "{B23BD01C-2F7F-4BF4-A919-E9F08A1F8416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2285BDE2-884C-422A-8148-91886E2B10F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2285BDE2-884C-422A-8148-91886E2B10F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2285BDE2-884C-422A-8148-91886E2B10F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2285BDE2-884C-422A-8148-91886E2B10F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD904D8D-C4B0-4922-BF61-101F1D337D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD904D8D-C4B0-4922-BF61-101F1D337D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD904D8D-C4B0-4922-BF61-101F1D337D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD904D8D-C4B0-4922-BF61-101F1D337D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23BD01C-2F7F-4BF4-A919-E9F08A1F8416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23BD01C-2F7F-4BF4-A919-E9F08A1F8416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23BD01C-2F7F-4BF4-A919-E9F08A1F8416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23BD01C-2F7F-4BF4-A919-E9F08A1F8416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

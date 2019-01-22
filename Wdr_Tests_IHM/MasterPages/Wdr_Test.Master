@@ -1,0 +1,52 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Wdr_Test.master.vb" Inherits="Wdr_Tests_IHM.Wdr_Test" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <table style="width:100%;">
+        <tr>
+            <td style="background-color:royalblue;" colspan="2">
+                <center>
+                    <h1>Titre</h1>
+                </center>
+            </td>
+        </tr>
+        <tr style="">
+            <td style="width:10%; background-color:lightgray;height:750px" colspan="1">
+                <ul>
+                    <li><a href="frmTest.aspx">Couleurs</a></li>
+                    <li><a href="frmVoiture.aspx">Marques</a></li>
+                </ul>
+            </td>
+            <td style="height:750px">
+                <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+            </td>
+        </tr>
+        <tr>
+            <td  style="background-color:royalblue;" colspan="2">
+                <center>
+                    <h5>Footer</h5>
+                </center>
+            </td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>

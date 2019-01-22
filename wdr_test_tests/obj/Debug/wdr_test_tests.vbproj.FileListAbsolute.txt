@@ -1,0 +1,13 @@
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_tests.exe.config
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.vbprojResolveAssemblyReference.cache
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.Resources.resources
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.vbproj.GenerateResource.Cache
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_tests.exe
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_tests.pdb
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_tests.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_datalayer.dll
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_datalayer.pdb
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\bin\Debug\wdr_test_datalayer.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.exe
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\wdr_test_tests\obj\Debug\wdr_test_tests.pdb

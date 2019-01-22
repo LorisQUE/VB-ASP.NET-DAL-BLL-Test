@@ -1,0 +1,12 @@
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\Wdr_Tests_IHM.dll
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\Wdr_Tests_IHM.pdb
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\Wdr_Tests_IHM.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\wdr_test_datalayer.dll
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\wdr_test_datalayer.pdb
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\bin\wdr_test_datalayer.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.vbprojResolveAssemblyReference.cache
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.Resources.resources
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.vbproj.GenerateResource.Cache
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.dll
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.xml
+C:\Users\E014200\Documents\Visual Studio 2012\Projects\wdr_test_datalayer\Wdr_Tests_IHM\obj\Debug\Wdr_Tests_IHM.pdb
